@@ -1,0 +1,82 @@
+git config --global user.name "fillipefff@gmail.com"
+
+git remote add origin https://github.com/Fillipe-Albuquerque-Moreira-Dos-Santos
+
+
+git remote add https://github.com/Fillipe-Albuquerque-Moreira-Dos-Santos/AulasJavaSenai.git
+
+git push -u origin https://github.com/Fillipe-Albuquerque-Moreira-Dos-Santos/AulasJavaSenai.git
+
+git checkout 
+
+git remote -v
+
+git remote add origin https://meu-endereco.com/meu-projeto.git
+ls
+pwd
+
+ cd C:\Program Files\aulas_github
+
+git remote set-url origin https://github.com/Fillipe-Albuquerque-Moreira-Dos-Santos/FaculdadeSenac.git
+
+mudar de master pra main - (git branch -m master main)
+
+
+git remote add local /c/aulas_git
+
+git remote set-url origin https://github.com/Fillipe-Albuquerque-Moreira-Dos-Santos/FaculdadeSenac.git
+
+
+Senhor Sheshomaru@Familia MINGW64 /c/aulas_git (main)
+$ git push -u origin https://github.com/Fillipe-Albuquerque-Moreira-Dos-Santos/AulasJavaSenai.git
+fatal: invalid refspec 'https://github.com/Fillipe-Albuquerque-Moreira-Dos-Santos/AulasJavaSenai.git'
+
+Senhor Sheshomaru@Familia MINGW64 /c/aulas_git (main)
+$ ^C
+
+Senhor Sheshomaru@Familia MINGW64 /c/aulas_git (main)
+$ git remote set-url origin https://github.com/Fillipe-Albuquerque-Moreira-Dos-Santos/AulasJavaSenai.git
+
+Senhor Sheshomaru@Familia MINGW64 /c/aulas_git (main)
+$ git push -u origin https://github.com/Fillipe-Albuquerque-Moreira-Dos-Santos/AulasJavaSenai.git
+fatal: invalid refspec 'https://github.com/Fillipe-Albuquerque-Moreira-Dos-Santos/AulasJavaSenai.git'
+
+Senhor Sheshomaru@Familia MINGW64 /c/aulas_git (main)
+$ git remote set-url origin https://github.com/Fillipe-Albuquerque-Moreira-Dos-Santos/AulasJavaSenai.git
+
+Senhor Sheshomaru@Familia MINGW64 /c/aulas_git (main)
+$ got remote -v
+bash: got: command not found
+
+Senhor Sheshomaru@Familia MINGW64 /c/aulas_git (main)
+$ git remote -v
+AulasJavaSenai  https://github.com/Fillipe-Albuquerque-Moreira-Dos-Santos/AulasJavaSenai.git (fetch)
+AulasJavaSenai  https://github.com/Fillipe-Albuquerque-Moreira-Dos-Santos/AulasJavaSenai.git (push)
+local   C:/aulas_git (fetch)
+local   C:/aulas_git (push)
+origin  https://github.com/Fillipe-Albuquerque-Moreira-Dos-Santos/AulasJavaSenai.git (fetch)
+origin  https://github.com/Fillipe-Albuquerque-Moreira-Dos-Santos/AulasJavaSenai.git (push)
+
+Senhor Sheshomaru@Familia MINGW64 /c/aulas_git (main)
+$ ls
+AtividadeAssicrona/  PrimeiroProgramaJava/  Program_AulasJavaQUA209_048/
+AtividadedoCarro/    Program/
+
+Senhor Sheshomaru@Familia MINGW64 /c/aulas_git (main)
+$ git add .
+
+Senhor Sheshomaru@Familia MINGW64 /c/aulas_git (main)
+$ git push
+Enumerating objects: 164, done.
+Counting objects: 100% (164/164), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (121/121), done.
+Writing objects: 100% (164/164), 47.65 KiB | 6.81 MiB/s, done.
+Total 164 (delta 45), reused 97 (delta 26), pack-reused 0
+remote: Resolving deltas: 100% (45/45), done.
+To https://github.com/Fillipe-Albuquerque-Moreira-Dos-Santos/AulasJavaSenai.git
+ * [new branch]      main -> main
+
+Senhor Sheshomaru@Familia MINGW64 /c/aulas_git (main)
+$
+
