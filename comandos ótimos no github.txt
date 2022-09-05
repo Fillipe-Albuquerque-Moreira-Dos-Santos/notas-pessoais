@@ -1,0 +1,27 @@
+comandos github importante
+
+cd desktop -- cd (para entrar na pasta) desktop é para entrar na pasta
+
+mkdir -- cria uma pasta
+depois de criar uma pasta iremos em cd e selecionar a pasta criada no git
+
+CTRL + L -- Limpa a tela no GitHub
+
+nano index.html (para criar um index.html) o nano é um editor. Obs: pode ser criado em qualquer lugar um index.html. (CTRL + X para salvar o  nano)
+
+git status -- ele vai dar um resumo do que foi feito e se precisa fazer um commit.
+
+git add . (esse comando git add insere todos os arquivos que foram modificados vistos pelo git status)
+
+git commit -m "O nome do salvar arquivo" -- Esse é o salvar como tradicionalmente falando
+
+git remote add origin https://github.com/Fillipe-Albuquerque-Moreira-Dos-Santos/cursogitjavascript (comando para escolher o repositório remoto) (esse origin ele é alterávelgit )
+
+$ git remote (quando aparece esse origin significa que um github remoto está ligado, ou seja conectado)
+origin
+
+git log --oneline (o ultimo commit utilizado).
+
+git log (ele mostra todos os ultimos commit utilizado)
+
+
